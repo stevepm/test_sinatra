@@ -13,10 +13,13 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.2)
       rack
+    shotgun (0.9)
+      rack (>= 1.0)
     tilt (1.4.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  shotgun (~> 0.9)
   sinatra!
